@@ -15,12 +15,12 @@ If the input arguments are out of range for the dataset, an empty list should be
 
 : [2. Hypermedia pagination](./2-hypermedia_pagination.py)
 Implement a get_hyper method that takes the same arguments (and defaults) as get_page and returns a dictionary containing the following key-value pairs:
-    page_size: the length of the returned dataset page
-    page: the current page number
-    data: the dataset page (equivalent to return from previous task)
-    next_page: number of the next page, None if no next page
-    prev_page: number of the previous page, None if no previous page
-    total_pages: the total number of pages in the dataset as an integer
+    1. page_size: the length of the returned dataset page
+    2. page: the current page number
+    3. data: the dataset page (equivalent to return from previous task)
+    4. next_page: number of the next page, None if no next page
+    5. prev_page: number of the previous page, None if no previous page
+    6. total_pages: the total number of pages in the dataset as an integer
 
 : [3. Deletion-resilient hypermedia pagination](./3-hypermedia_del_pagination.py)
 Implements a get_hyper_index method with two integer arguments: index with a None default value and page_size with default value of 10.
