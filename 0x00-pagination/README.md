@@ -22,7 +22,7 @@ Implement a get_hyper method that takes the same arguments (and defaults) as get
     prev_page: number of the previous page, None if no previous page
     total_pages: the total number of pages in the dataset as an integer
 
-: [2. Hypermedia pagination](./2-hypermedia_pagination.py)
+: [3. Deletion-resilient hypermedia pagination](./3-hypermedia_del_pagination.py)
 Implements a get_hyper_index method with two integer arguments: index with a None default value and page_size with default value of 10.
 The method should return a dictionary with the following key-value pairs:
         index: the current start index of the return page. That is the index of the first item in the current page. For example if requesting page 3 with page_size 20, and no data was removed from the dataset, the current index should be 60.
