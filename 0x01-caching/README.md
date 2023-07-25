@@ -43,3 +43,7 @@ Creates a class LRUCache that inherits from BaseCaching and is a caching system
 
 * [MRU Caching](./4-mru_cache.py "MRU Caching")
 Creates a class MRUCache that inherits from BaseCaching and is a caching system
+
+* [LFU Caching](100-lfu_cache.py "LFU Caching")
+LFU stands for Least Frequently Used: discards those that are used least often
+Creates a class LFUCache that inherits from BaseCaching and is a caching system
